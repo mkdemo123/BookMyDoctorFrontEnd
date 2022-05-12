@@ -1,0 +1,24 @@
+.doctorstart{
+    background-image: url('./HomePage/Cards2/appointBg.png');
+    background-repeat: no-repeat;
+    height:420px;
+    background-position: center;
+    position: relative;
+    z-index:1;
+}
+.doctorstart::after{
+    position:absolute;
+    content:'';
+    top:0;
+    background: #242949;
+    display:block;
+    opacity: .8;
+    height:100%;
+    width:100%;
+    z-index: -1;
+    
+}
+.doctorstart img{
+    height:550px;
+    transform: translateY(-129px)
+}
